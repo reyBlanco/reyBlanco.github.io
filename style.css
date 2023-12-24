@@ -1,9 +1,9 @@
 body{
-    background-color: blue;
+    background-color: rgba(124, 130, 134, 0.677);
 }
 
 h1{
-    color: aqua;
+    color: rgb(2, 23, 23);
 }
 
 #form{
@@ -13,4 +13,8 @@ h1{
 #submit{
     color: blue;
     font-size: 20px;
+}
+
+#contenedor{
+    color: rgb(156, 10, 98);
 }
