@@ -53,6 +53,7 @@ let enviar=async(paquete)=>{
 }
 
 d.addEventListener("click",(e)=>{
+    e.preventDefault();
     if(e.target===$submit){
         paquete.data.nombre=$nombre.value;
         paquete.data.edad=$edad.value;
