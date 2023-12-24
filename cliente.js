@@ -32,7 +32,8 @@ let paquete={
     },
     reject:(error)=>{
         $contenedor.innerHTML=error;
-    }
+    },
+    method:"POST"
 }
 
 let enviar=async(paquete)=>{
