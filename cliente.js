@@ -8,7 +8,7 @@ const $contenedor=d.querySelector("#contenedor");
 let c=console.log;
 let paquete={
     data:{},
-    url:"https://elemental-yellow-pyroraptor.glitch.me/",
+    url:"https://elemental-yellow-pyroraptor.glitch.me/enviar",
     mode:"cors",
     headers:{
         "content-type":"application/json"
